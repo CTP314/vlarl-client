@@ -7,8 +7,8 @@ from loguru import logger
 import websockets.sync.client
 from websockets.exceptions import ConnectionClosedError
 
-from vlarl_client import base_agent as _base_agent
-from vlarl_client import msgpack_numpy
+from plugrl_client import base_agent as _base_agent
+from plugrl_client import msgpack_numpy
 
 class MessageType(enum.Enum):
     INFER = "infer"

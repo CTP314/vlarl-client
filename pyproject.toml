@@ -1,5 +1,5 @@
 [project]
-name = "vlarl-client"
+name = "plugrl-client"
 version = "0.1.0"
 description = ""
 authors = [
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "vlarl_client", from = "src"}]
+packages = [{include = "plugrl_client", from = "src"}]
 
 
 [build-system]
